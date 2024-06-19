@@ -44,8 +44,8 @@ This is the source code for my personal portfolio website. The website highlight
 
 ## Contact
 Email: shivang@example.com
-LinkedIn: linkedin.com/in/shivang-tripathi
-GitHub: github.com/shivang-tripati
+LinkedIn:[https://www.linkedin.com/in/shivang-tripathi/](https://www.linkedin.com/in/shivang-tripathi-4294ab26b/)
+GitHub: www.github.com/shivang-tripati
 
 ## License
 This `README.md` covers an introduction to the project, features, technologies used, installation instructions, project structure, contact information, and the license. Feel free to adjust the content to better suit your specific needs and details.
