@@ -2,10 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import quickcart from "@/public/quickcart.png";
-import ecommerceCloud from "@/public/ecommercecloud.png";
+import ecommerceCloud from "@/public/ecommerceCloud.png";
 import DeployMate from "@/public/DeployMate.png";
 
 export const links = [
