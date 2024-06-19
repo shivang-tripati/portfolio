@@ -52,5 +52,5 @@
 //                 </VerticalTimeline>
 //             </div>
 //         </motion.section>
-//     );
+    // )
 // }
