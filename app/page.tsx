@@ -4,7 +4,6 @@ import About from "@/components/about";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
-import Experience from "@/components/experience-section";
 import Contact from "@/components/contact";
 
 
