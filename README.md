@@ -32,8 +32,4 @@ This is the source code for my personal portfolio website. The website highlight
 - **TypeScript**: Typed superset of JavaScript for better code quality.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 - **Framer Motion**: Library for animations and transitions in React.
-- **AWS**: Cloud services for backend and infrastructure.
-- **Supabase**: Backend-as-a-Service for authentication and database management.
-- **Prisma**: ORM for database interaction.
-- **Other Libraries**: React Icons, Zustand, Docker, etc.
 
