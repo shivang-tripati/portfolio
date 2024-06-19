@@ -33,20 +33,14 @@ This is the source code for my personal portfolio website. The website highlight
 - **Framer Motion**: Library for animations and transitions in React.
 
 ## Project Structure
-├── public
-│   ├── images
-│   └── profile.jpg
-├── src
-│   ├── components
-│   ├── context
-│   ├── hooks
-│   ├── pages
-│   ├── styles
-│   └── utils
-├── .gitignore
-├── README.md
-├── package.json
-└── next.config.js
+- **public/**: Contains static assets like images.
+- **src/components/**: React components used in the application.
+- **src/context/**: Context API for managing global state.
+- **src/hooks/**: Custom hooks.
+- **src/pages/**: Next.js pages.
+- **src/styles/**: Styling files (CSS, Tailwind).
+- **src/utils/**: Utility functions and constants.
+
 
 ## Contact
 Email: shivang@example.com
