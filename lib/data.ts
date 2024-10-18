@@ -5,7 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import quickcart from "@/public/quickcart.png";
 import ecommerceCloud from "@/public/ecommerceCloud.png";
 import DeployMate from "@/public/DeployMate.png";
-
+//import skxywrLOGO from "@/public/skxywrLOGO.jpg";
+//import sponsogram from "@/public/sponsogram.png";
 export const links = [
   {
     name: "Home",
@@ -23,52 +24,38 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Contact",
     hash: "#contact",
   },
-  // {
-  //   name: "Resume",
-  //   hash: "#resume",
-  // },
-  // {
-  //   name: "GitHub",
-  //   hash: "#https://github.com/saviomartin",
-  // },
-  // {
-  //   name: "LinkedIn",
-  //   hash: "https://www.linkedin.com/in/saviomartin",
-  // },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Full Stack Developer Intern | SKXYWTF",
+   // location: "Delhi",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    "Developed and maintained a responsive dashboard with complex components, including a collection of " +
+    "interactive charts and data visualizations. Utilized technologies such as JavaScript, TypeScript, Next.js, " +
+    "and Tailwind CSS to build scalable and responsive layouts."
+     ,
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "October 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Developer Intern | SPONSOGRAM",
+    // location: "Houston, TX"
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    "Developed and maintained 10+ dynamic React components, including complex features like a user dashboard, " +
+    "navigation sidebar, and interactive search bar using Next.js, TypeScript, and React. " +
+    "Converted UI/UX designs into fully functional and interactive web interfaces, ensuring optimal " +
+    "performance across different browsers using HTML, Tailwind CSS, and React.",
+    icon: React.createElement(CgWorkAlt),
+    date: "September2024-October 2024",
   },
 ] as const;
 
@@ -76,36 +63,36 @@ export const projectsData = [
   {
     title: "QuickCart",
     description:
-      "QuickCart, built with Next.js, React, and Tailwind CSS, integrates with EcommerceCloud for advanced browsing, filtering, purchasing, quick previews, customizable filters, detailed product pages, and a streamlined checkout, enhancing user experience",
-      url : "https://quickcart-neon.vercel.app/",
-    tags: ["Next.js", "React", "TypeScript", "Tailwind", "Prisma" , "Stripe"],
+      "QuickCart, built with Next.js, React, and Tailwind CSS, integrates with EcommerceCloud for advanced browsing, " +
+      "filtering, purchasing, quick previews, customizable filters, detailed product pages, and a streamlined checkout, enhancing user experience.",
+    url: "https://quickcart-neon.vercel.app/",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind", "Prisma", "Stripe"],
     imageUrl: quickcart,
   },
   {
     title: "Ecommerce Cloud",
     description:
       "EcommerceCloud: Multi-store management dashboard with secure user authentication and reliable database management.",
-    url : "https://ecommerce-cloud-indol.vercel.app/",
-    tags: ["React", "Next.js",  "TypeScript", "Tailwind", "Zustand", "Supabase", "Prisma", "Stripe", "Clerk"],
+    url: "https://ecommerce-cloud-indol.vercel.app/",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Zustand", "Supabase", "Prisma", "Stripe", "Clerk"],
     imageUrl: ecommerceCloud,
   },
   {
     title: "DeployMate",
     description:
       "DeployMate: Automate GitHub project deployment with Next.js frontend and AWS backend.",
-    url : "https://github.com/saviomartin/DeployMate",
-    tags: [ "Next.js", "TypeScript", "PostgreSQL", "Tailwind", "Docker", "AWS",  "Kafka", "ClickHouse"],
+    url: "https://github.com/saviomartin/DeployMate",
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind", "Docker", "AWS", "Kafka", "ClickHouse"],
     imageUrl: DeployMate,
   },
 ] as const;
-
 
 export const skillsData = [
   "Java",
   "Python",
   "Data Structures",
-  "Alogrithms",
-  "Opps",
+  "Algorithms",
+  "OOPs",
   "JavaScript",
   "TypeScript",
   "React",
@@ -129,4 +116,3 @@ export const skillsData = [
   "Redis",
   "Framer Motion",
 ] as const;
-
